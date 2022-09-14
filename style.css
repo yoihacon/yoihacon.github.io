@@ -54,6 +54,45 @@ a {
 li {
 	margin-bottom: 0.5em;
 }
+li:last-child {
+	margin-bottom: 0;
+}
+
+table {
+	border: 2px black solid;
+	margin-top: 1em;
+}
+tr {
+	border: 1px solid;
+}
+td {
+	width: 8em;
+	border: 1px solid;
+}
+.TableInManual {
+	font-family:'Times New Roman';
+	font-size: x-large;
+	text-align: center;
+}
+.TableInHobby {
+	width: 90%;
+	margin: 1em 2em;
+}
+.TableInHobby td {
+	width: 4em;
+	text-align: center;
+}
+.TableInHobby td:last-child {
+	width: auto;
+	padding-left: 1em;
+	text-align: left;
+}
+
+p {
+	width: 90%;
+	padding: 0 2em;
+	text-indent: 1em;
+}
 
 .SecTitle {
 	font-weight: bold;
@@ -74,6 +113,10 @@ li {
 .Comment {
 	font-size: small;
 	color: gray;
+}
+
+.MonoFont {
+	font-family: monospace;
 }
 
 #Owner {
@@ -101,5 +144,8 @@ li {
 	}
 	footer {
 		font-size: small;
+	}
+	.TableInManual {
+		font-size: medium;
 	}
 }
