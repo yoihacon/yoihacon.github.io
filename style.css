@@ -123,6 +123,20 @@ p {
 	margin-top: 10px;
 }
 
+.ParagraphTitle {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.FloatSection {
+	float: inline-start;
+	width: 40%;
+}
+
+.StopFloat {
+	clear: both;
+}
+
 @media screen and (max-width: 770px) {
 	nav {
 		width: 100%;
@@ -147,5 +161,9 @@ p {
 	}
 	.TableInManual {
 		font-size: medium;
+	}
+	.FloatSection {
+		float: none;
+		width: auto;
 	}
 }
