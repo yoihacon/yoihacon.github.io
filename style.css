@@ -129,8 +129,8 @@ p {
 }
 
 .FloatSection {
-	float: inline-start;
-	width: 40%;
+	float: left;
+	width: 45%;
 }
 
 .StopFloat {
