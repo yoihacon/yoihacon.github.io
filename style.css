@@ -146,9 +146,10 @@ p {
 	.NavBtn {
 		display: inline;
 		margin: 5px 5px;
-		width:fit-content;
+		width: fit-content;
 		font-size: small;
 	}
+
 	main {
 		margin-left: 0px;
 		padding: 40px 10px;
