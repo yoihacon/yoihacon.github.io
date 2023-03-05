@@ -1,3 +1,5 @@
+import * as Research from "./research.mjs";
+
 const HeadContent = document.getElementsByTagName('head')[0];
 const SidebarMenu = document.getElementsByTagName('nav')[0];
 const Footer = document.getElementsByTagName('footer')[0];
@@ -8,8 +10,12 @@ function start() {
 	item.rel = 'stylesheet';
 	HeadContent.appendChild(item);
 
-	initNavigator();
 	initFooter();
+	initNavigator();
+
+	if (document.getElementsByTagName('head')[0].innerText.includes('Research')) {
+		loadPageOfResearch();
+	}
 }
 
 function initNavigator() {
@@ -32,6 +38,25 @@ function initNavigator() {
 
 function initFooter() {
 	Footer.innerText = 'ZHEN ZHENG - SCNU';
+}
+
+function loadPageOfResearch(abbr_mode=true) {
+	const publication_list = document.getElementById('Publications');
+	publication_list.innerHTML = '';
+	for (const paper of Research.Publications) {
+		const item = document.createElement('li');
+		publication_list.appendChild(item);
+		const key_surplus = abbr_mode ? ' abbr' : '', self_name = abbr_mode ? 'Z. Zheng' : 'Zhen Zheng';
+		let str = paper['title']+',<br>'+paper['authors'+key_surplus]+', '+'<span class="JournalName">'+paper['journal'+key_surplus]+'</span>, ';
+		item.innerHTML = str.replace('$self', '<span class="HighlightTxt">'+self_name+'</span>').replace('$email', '&#x272A;');
+
+		let link = document.createElement('a');
+		link.href = paper['link'];
+		link.innerText = paper['volume']+', '+paper['number'];
+		item.appendChild(link);
+
+		item.innerHTML += ' ('+paper['year']+').';
+	}
 }
 
 
