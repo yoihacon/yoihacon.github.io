@@ -13,9 +13,7 @@ function start() {
 	initFooter();
 	initNavigator();
 
-	if (document.getElementsByTagName('head')[0].innerText.includes('Research')) {
-		loadPageOfResearch();
-	}
+	loadPageOfResearch();
 }
 
 function initNavigator() {
@@ -42,6 +40,7 @@ function initFooter() {
 
 function loadPageOfResearch(abbr_mode=true) {
 	const publication_list = document.getElementById('Publications');
+	if (publication_list==null) return;
 	publication_list.innerHTML = '';
 	for (const paper of Research.Publications) {
 		const item = document.createElement('li');
