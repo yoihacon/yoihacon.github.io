@@ -1,5 +1,17 @@
 export const Publications = [
 	{
+		"journal": "Physical Review A",
+		"journal abbr": "Phys. Rev. A",
+		"volume": 107,
+		"number": "043304",
+		"year": 2023,
+		"month": 4,
+		"title": "Tunable boson-assisted finite-range interaction and engineering Majorana corner modes in optical lattices",
+		"authors": "Yu-Biao Wu, $self, Xiang-Gang Qiu, Lin Zhuang, Guang-Can Guo, Xu-Bo Zou, and Wu-Ming Liu",
+		"authors abbr": "Y.-B. Wu, $self, X.-G. Qiu, L. Zhuang, G.-C. Guo, X.-B. Zou, and W.-M. Liu",
+		"link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.107.043304"
+	},
+	{
 		"journal": "Physical Review Letters",
 		"journal abbr": "Phys. Rev. Lett.",
 		"volume": 129,
