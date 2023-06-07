@@ -20,6 +20,7 @@ function initNavigator() {
 	const lst = [
 		{'name': 'Home', 'path': 'index'},
 		{'name': 'Research', 'path': 'research'},
+		{'name': 'Teaching', 'path': 'teaching'},
 		{'name': 'Links', 'path': 'link'}
 	]
 
