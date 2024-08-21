@@ -2,6 +2,18 @@ export const Publications = [
 	{
 		"journal": "Physical Review A",
 		"journal abbr": "Phys. Rev. A",
+		"volume": 110,
+		"number": "023321",
+		"year": 2024,
+		"month": 8,
+		"title": "Synthetic non-Abelian topological charges in ultracold atomic gases",
+		"authors": "Qi-Dong Wang, Yan-Qing Zhu, Shi-Liang Zhu, and $self$email",
+		"authors abbr": "Q.-D. Wang, Y.-Q. Zhu, S.-L. Zhu, $self$email",
+		"link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.023321"
+	},
+	{
+		"journal": "Physical Review A",
+		"journal abbr": "Phys. Rev. A",
 		"volume": 107,
 		"number": "043304",
 		"year": 2023,
