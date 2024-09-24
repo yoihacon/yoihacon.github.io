@@ -7,8 +7,8 @@ export const Publications = [
 		"year": 2024,
 		"month": 9,
 		"title": "Synthetic spin-orbit coupling for the multispin models in optical lattices",
-		"authors": "$self$email, Yan-Qing Zhu, Shanchao Zhang, Shi-Liang Zhu, and Z. D. Wang",
-		"authors abbr": "$self$email, Y.-Q. Zhu, S. Zhang, S.-L. Zhu, and Z. D. Wang",
+		"authors": "$self, Yan-Qing Zhu, Shanchao Zhang, Shi-Liang Zhu, and Z. D. Wang",
+		"authors abbr": "$self, Y.-Q. Zhu, S. Zhang, S.-L. Zhu, and Z. D. Wang",
 		"link": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.033327"
 	},
 	{
