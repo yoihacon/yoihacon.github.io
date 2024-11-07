@@ -5,33 +5,8 @@ body {
 	padding: 0;
 }
 
-nav {
-	position: fixed;
-	width: 120px;
-	height: 100%;
-	background-color: darkgray;
-	padding: 5px;
-}
-
-button {
-	border: 1px solid gray;
-	border-radius: 6px;
-	text-align: center;
-	background-color: whitesmoke;
-}
-
-.NavBtn {
-	display: block;
-	margin-top: 15px;
-	width: 115px;
-	font-size: medium;
-}
-.NavBtn:hover {
-	box-shadow: 0 0 10px black;
-}
-
 main {
-	margin-left: 120px;
+	margin-left: 20px;
 	padding: 5px 25px 20px;
 }
 
@@ -56,42 +31,6 @@ li {
 }
 li:last-child {
 	margin-bottom: 0;
-}
-
-table {
-	border: 2px black solid;
-	margin-top: 1em;
-}
-tr {
-	border: 1px solid;
-}
-td {
-	width: 8em;
-	border: 1px solid;
-}
-.TableInManual {
-	font-family:'Times New Roman';
-	font-size: x-large;
-	text-align: center;
-}
-.TableInHobby {
-	width: 90%;
-	margin: 1em 2em;
-}
-.TableInHobby td {
-	width: 4em;
-	text-align: center;
-}
-.TableInHobby td:last-child {
-	width: auto;
-	padding-left: 1em;
-	text-align: left;
-}
-
-p {
-	width: 90%;
-	padding: 0 2em;
-	text-indent: 1em;
 }
 
 .SecTitle {
@@ -121,11 +60,6 @@ p {
 
 #Owner {
 	margin-top: 10px;
-}
-
-.ParagraphTitle {
-	margin-top: 2em;
-	text-align: center;
 }
 
 .FloatSection {
