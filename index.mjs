@@ -11,7 +11,6 @@ function start() {
 	HeadContent.appendChild(item);
 
 	initFooter();
-	initNavigator();
 
 	loadPageOfResearch();
 }
@@ -35,7 +34,7 @@ function initNavigator() {
 }
 
 function initFooter() {
-	Footer.innerText = 'ZHEN ZHENG - SCNU';
+	Footer.innerText = document.getElementsByTagName('title')[0].innerText;
 }
 
 function loadPageOfResearch(abbr_mode=true) {
@@ -46,7 +45,7 @@ function loadPageOfResearch(abbr_mode=true) {
 		const item = document.createElement('li');
 		publication_list.appendChild(item);
 		const key_surplus = abbr_mode ? ' abbr' : '', self_name = abbr_mode ? 'Z. Zheng' : 'Zhen Zheng';
-		let str = paper['title']+',<br>'+paper['authors'+key_surplus]+', '+'<span class="JournalName">'+paper['journal'+key_surplus]+'</span> ';
+		let str = paper['title']+',<br>'+paper['authors'+key_surplus]+', '+'<span class="JournalName">'+paper['journal'+key_surplus]+'</span>, ';
 		item.innerHTML = str.replace('$self', '<span class="HighlightTxt">'+self_name+'</span>').replace('$email', '&#x272A;');
 
 		let link = document.createElement('a');
