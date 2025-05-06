@@ -1,5 +1,17 @@
 export const Publications = [
 	{
+		"journal": "Physical Review B",
+		"journal abbr": "Phys. Rev. B",
+		"volume": 111,
+		"number": "195107",
+		"year": 2025,
+		"month": 5,
+		"title": "Topological insulators with hybrid-order boundary states",
+		"authors": "Yan-Qing Zhu, $self, Giandomenico Palumbo, and Z. D. Wang",
+		"authors abbr": "Y.-Q. Zhu, $self, G. Palumbo, and Z. D. Wang",
+		"link": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.195107"
+	},
+	{
 		"journal": "Physical Review A",
 		"journal abbr": "Phys. Rev. A",
 		"volume": 110,
