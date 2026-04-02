@@ -1,5 +1,17 @@
 export const Publications = [
 	{
+		"journal": "The European Physical Journal D",
+		"journal abbr": "Eur. Phys. J. D",
+		"volume": 80,
+		"number": "18",
+		"year": 2026,
+		"month": 3,
+		"title": "Higgs oscillations in quench dynamics of spin-orbit coupled Fermi gases",
+		"authors": "Ting Qiu, $self$email, and Yu-Biao Wu",
+		"authors abbr": "T. Qiu, $self$email, Y.-B. Wu",
+		"link": "https://link.springer.com/article/10.1140/epjd/s10053-026-01128-9"
+	},
+	{
 		"journal": "Physical Review B",
 		"journal abbr": "Phys. Rev. B",
 		"volume": 111,
