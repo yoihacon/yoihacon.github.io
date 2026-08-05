@@ -3,7 +3,7 @@ export const Publications = [
 		"journal": "New Journal of Physics",
 		"journal abbr": "New J. Phys.",
 		"volume": 28,
-		"number": "7",
+		"number": "073204",
 		"year": 2026,
 		"month": 7,
 		"title": "Cavity-induced multispin interactions and phase transitions in ultracold Fermi gases",
