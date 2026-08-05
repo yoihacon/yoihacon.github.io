@@ -1,5 +1,17 @@
 export const Publications = [
 	{
+		"journal": "New Journal of Physics",
+		"journal abbr": "New J. Phys.",
+		"volume": 28,
+		"number": "7",
+		"year": 2026,
+		"month": 7,
+		"title": "Cavity-induced multispin interactions and phase transitions in ultracold Fermi gases",
+		"authors": "$self, Shi-Liang Zhu, and Z. D. Wang",
+		"authors abbr": "$self, S.-L. Zhu, and Z. D. Wang",
+		"link": "https://iopscience.iop.org/article/10.1088/1367-2630/ae868d"
+	},
+	{
 		"journal": "The European Physical Journal D",
 		"journal abbr": "Eur. Phys. J. D",
 		"volume": 80,
