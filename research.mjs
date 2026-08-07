@@ -1,5 +1,17 @@
 export const Publications = [
 	{
+		"journal": "The European Physical Journal B",
+		"journal abbr": "Eur. Phys. J. B",
+		"volume": 99,
+		"number": "113",
+		"year": 2026,
+		"month": 8,
+		"title": "Quench dynamics of the Kondo lattice model in ultracold Fermi gases",
+		"authors": "Kai-Yi Nie, Yuan-Xi Wu, and $self$email",
+		"authors abbr": "K.-Y. Nie, Y.-X. Wu, and $self$email",
+		"link": "https://link.springer.com/article/10.1140/epjb/s10051-026-01230-2"
+	},
+	{
 		"journal": "New Journal of Physics",
 		"journal abbr": "New J. Phys.",
 		"volume": 28,
