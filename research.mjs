@@ -1,7 +1,7 @@
 export const Publications = [
 	{
 		"journal": "Acta Physica Sinica",
-		"journal abbr": "Acta Phys Sin-CH ED",
+		"journal abbr": "Acta Phys. Sin.",
 		"volume": 75,
 		"number": "200303",
 		"year": 2026,
