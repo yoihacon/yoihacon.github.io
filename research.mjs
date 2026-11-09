@@ -6,7 +6,7 @@ export const Publications = [
 		"number": "200303",
 		"year": 2026,
 		"month": 10,
-		"title": "Quantum many-body physics in polarized Fermi gases",
+		"title": "Quantum many-body physics in polarized Fermi gases (in Chineses)",
 		"authors": "$self, Yuanxi Wu, Lang Yu, and Zidan Wang",
 		"authors abbr": "$self, Y. Wu, L. Yu, and Z. Wang",
 		"link": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.75.20260701"
